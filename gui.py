@@ -8,6 +8,7 @@ W=m*2+cols*cell*2+g
 H=m*3+rows*cell*2
 
 root=tk.Tk()
+root.title("Labytrinth Algorythim")
 C=tk.Canvas(root,width=W,height=H,bg="white")
 C.pack()
 
